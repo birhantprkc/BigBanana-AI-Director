@@ -1,0 +1,179 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "SoftwareApplication",
+      "@id": "https://director.tree456.com/#software",
+      "name": "BigBanana AI Director",
+      "alternateName": [
+        "BigBanana",
+        "大香蕉",
+        "大香蕉 AI Director",
+        "BigBanana AI 漫剧工场",
+        "AI 漫剧工场",
+        "BigBanana 漫剧平台",
+        "Banana Manga Studio"
+      ],
+      "description": "BigBanana AI Director（大香蕉）是一款 AI 一站式短剧／漫剧生成平台，采用 Script-to-Asset-to-Keyframe 工业化工作流，通过角色定妆照、衣橱系统与关键帧驱动，解决 AI 漫剧的角色一致性与镜头可控性问题，覆盖剧本、角色、分镜、视频、配音到成片导出的完整链路。",
+      "applicationCategory": "MultimediaApplication",
+      "applicationSubCategory": "AI 漫剧制作工具",
+      "operatingSystem": ["Web", "Windows 10+", "macOS 11+", "Docker"],
+      "softwareVersion": "Latest (official Docker image)",
+      "softwareRequirements": "浏览器或 Electron 客户端；调用 AI 模型需配置 AntSK API Key 或兼容渠道",
+      "url": "https://director.tree456.com/",
+      "sameAs": [
+        "https://github.com/shuyu-labs/BigBanana-AI-Director",
+        "https://gitee.com/mdsxbm_admin/BigBanana-AI-Director"
+      ],
+      "downloadUrl": "https://github.com/shuyu-labs/BigBanana-AI-Director",
+      "installUrl": "https://director.tree456.com/",
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "isAccessibleForFree": true,
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "CNY",
+        "description": "软件本身免费使用（Docker 镜像、桌面客户端、在线版均无授权费）。AI 模型调用费用由模型供应商按实际用量收取，需自行配置 API Key。商业用途需另行获取授权。",
+        "availability": "https://schema.org/InStock"
+      },
+      "featureList": [
+        "Script-to-Asset-to-Keyframe 工业化工作流",
+        "角色定妆照系统（锁定全片视觉基准）",
+        "衣橱系统（多造型保持面部一致）",
+        "上下文感知生成（自动读取场景与服装参考）",
+        "关键帧精控（首帧/尾帧插值驱动）",
+        "九宫格分镜预览（先选构图再生成）",
+        "整本小说导入并自动拆分多集",
+        "世界观构建（地图、区域、地点、音乐风格锚点）",
+        "CutOS 风格 AI 粗剪时间线",
+        "提示词集中管理与版本回滚",
+        "浏览器本地数据存储（IndexedDB）"
+      ],
+      "audience": {
+        "@type": "Audience",
+        "audienceType": "AI 漫剧连载创作者、网文 IP 改编团队、内容工作室、短视频创作者"
+      },
+      "author": {
+        "@id": "https://director.tree456.com/#organization"
+      },
+      "publisher": {
+        "@id": "https://director.tree456.com/#organization"
+      }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://director.tree456.com/#organization",
+      "name": "BigBanana",
+      "alternateName": ["大香蕉", "BigBanana AI Director", "shuyu-labs"],
+      "url": "https://director.tree456.com/",
+      "logo": "https://director.tree456.com/logo.png",
+      "email": "antskpro@qq.com",
+      "sameAs": [
+        "https://github.com/shuyu-labs/BigBanana-AI-Director",
+        "https://gitee.com/mdsxbm_admin/BigBanana-AI-Director",
+        "https://bigbanana.tree456.com/",
+        "https://api.antsk.cn/"
+      ],
+      "description": "BigBanana（大香蕉）致力于为创作者提供 AI 漫剧／短剧的工业化生产工具与工作流，主产品为 BigBanana AI Director。"
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://director.tree456.com/#website",
+      "url": "https://director.tree456.com/",
+      "name": "BigBanana AI Director（大香蕉 AI 漫剧工场）",
+      "inLanguage": "zh-CN",
+      "publisher": {
+        "@id": "https://director.tree456.com/#organization"
+      },
+      "about": {
+        "@id": "https://director.tree456.com/#software"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://director.tree456.com/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "BigBanana 是什么？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "BigBanana AI Director（中文名：大香蕉 AI 漫剧工场）是一款 AI 一站式短剧／漫剧生成平台，采用 Script-to-Asset-to-Keyframe 工业化工作流，覆盖剧本创作、角色设定、分镜设计、图像生成、视频生成、配音合成到成片导出的完整制作链路。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "BigBanana 和传统 AI 视频生成工具有什么区别？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "传统 AI 视频生成工具采用抽卡式生成，用文字描述碰运气，角色容易变脸、镜头难以控制。BigBanana 采用先画后动的关键帧驱动方式：先生成精准的起始帧和结束帧，再由模型在两帧之间插值生成过渡；同时所有画面都受角色定妆照和场景概念图的强约束。此外它提供从剧本到成片的完整闭环，无需在多工具间搬运素材。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "BigBanana 适合哪些人使用？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "适合需要连续剧情与系列化内容的创作者、需要角色长期一致性的连载作者、网文或小说 IP 改编团队、MCN 与内容工作室，以及有剧本意识并愿意做轻量分镜和台词微调的进阶用户。不适合只想点一次按钮立刻全自动出爆款的用户。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "BigBanana 是免费的吗？有隐藏收费吗？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "软件本身免费。Docker 镜像、桌面客户端和在线版均不收取软件授权费、订阅费或功能解锁费。AI 模型调用费用由各模型供应商按实际用量收取，需要自行注册并配置 API Key。新用户建议先使用免费额度较多的模型（如 DeepSeek）体验。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "BigBanana 生成的内容可以商用吗？版权归谁？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "使用 BigBanana 创作的内容版权归创作者所有。但需注意两点：一是本项目代码采用 CC BY-NC-SA 4.0 协议，商业使用需获取授权；二是各 AI 模型供应商对生成内容的使用条款不同（如 OpenAI 允许商用、Google 有特定限制），商用前应查阅对应供应商的服务协议。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "BigBanana 必须使用 AntSK API 吗？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "公开版默认通过 AntSK API 统一接入文本、图像、视频模型，优势是跨模型兼容与低于官方渠道 80% 的价格。用户也可以自行使用 OpenAI 或 Google 官方服务。如需对接私有模型网关或深度定制，可基于商业版源码交付另行适配。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "BigBanana 的数据存在哪里？安全吗？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "项目数据主要保存在浏览器本地环境（IndexedDB），不依赖服务端存储。剧本、角色设定和生成的画面优先留在本地设备内，适合正在孵化原创角色与尚未公开 IP 的创作者。本地存储模式更适合个人创作与轻量协作。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "BigBanana 支持哪些操作系统？如何部署？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "支持 Windows 10 及以上和 macOS 11 及以上，基于 Electron 构建的桌面客户端，安装包约 122MB，安装即用。此外提供在线版（浏览器直接访问 director.tree456.com）和 Docker 部署（docker-compose up -d，浏览器访问 localhost:3005）两种无需安装的方式。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "制作一集漫剧需要多长时间？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "以一个 5 分钟、10 个镜头的短篇漫剧为例，通常需要 1-2 小时完成全部流程：剧本和角色设定约 20 分钟，分镜设计约 15 分钟，图像生成约 30 分钟，视频生成约 20 分钟，配音约 10 分钟。每个环节都支持人工审核和调整。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "BigBanana 如何解决 AI 漫剧的角色变脸问题？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "通过三重机制：第一重是角色定妆照系统，为每个角色生成标准参考图作为全片视觉锚点；第二重是衣橱系统，同一角色可配置多套造型，所有变体基于 Base Look 生成以保持面部特征不变；第三重是上下文感知生成，镜头生成时自动读取当前场景图、角色服装参考和道具参考，显著降低不连戏问题。"
+          }
+        }
+      ]
+    }
+  ]
+}
