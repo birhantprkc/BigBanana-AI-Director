@@ -12,6 +12,14 @@
 
 ---
 
+## Beginner Course: First Class · Your First AI Short Drama Lesson
+
+**New to AI short dramas or motion comics and unsure where to start?** Purchase the companion course **《First Class：AI 短剧第一课》** to learn the creative process, then put it into practice with the BigBanana workbench.
+
+**[View course details and purchase →](https://flowus.cn/share/d4cc435a-bbe7-41ba-93d3-f15670203fdc?code=210JV0)**
+
+---
+
 ## TL;DR (Understand this project in 30 seconds)
 
 | Question | Answer |

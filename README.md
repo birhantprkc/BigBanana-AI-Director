@@ -12,6 +12,14 @@
 
 ---
 
+## 新手课程：First Class · AI 短剧第一课
+
+**第一次做 AI 短剧／漫剧，不知道从哪里开始？** 可以购买配套课程 **《First Class：AI 短剧第一课》**，系统学习创作方法，再结合 BigBanana 工作台动手实践。
+
+**[查看课程介绍并购买 →](https://flowus.cn/share/d4cc435a-bbe7-41ba-93d3-f15670203fdc?code=210JV0)**
+
+---
+
 ## TL;DR（30 秒了解本项目）
 
 | 问题 | 答案 |
